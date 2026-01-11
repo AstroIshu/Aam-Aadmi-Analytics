@@ -7,7 +7,6 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-
     /*
         For most things, we shouldn't explicitly set height, and let the
         content push the element to whatever fits. Using a fixed height
@@ -18,7 +17,6 @@
     */
     box-sizing: border-box;
     height: $menu-bar-height;
-
     /*
         @todo: This adds ~20px in Chrome, when scrolling to the right,
         but fixes [FFx + Safari] [resize window down + scroll to the right] bug.
@@ -39,11 +37,14 @@
     align-items: center;
     flex-grow: 1;
 }
+
 .inactive {
     opacity: 0;
 }
+
+/* Scratch logo removed, but keep class in case JSX keeps a placeholder */
 .scratch-logo {
-    height:  1.6rem;
+    height: 1.6rem;
     vertical-align: middle;
 }
 
@@ -136,7 +137,7 @@
     height: 1.25rem;
 }
 
-.coming-soon >:not(.coming-soon-tooltip) {
+.coming-soon > :not(.coming-soon-tooltip) {
     opacity: 0.5;
 }
 
@@ -151,6 +152,7 @@
     padding: 0 0.75rem;
 }
 
+/* My Stuff icon and button are not used anymore but classes kept harmlessly empty */
 .mystuff-icon {
     margin: 0 .25rem;
     height: 1rem;
@@ -164,7 +166,8 @@
     margin: 0 0 0 .25rem;
 }
 
-.account-nav-menu, .mystuff-button {
+.account-nav-menu,
+.mystuff-button {
     padding: 0 .25rem;
     display: flex;
     flex-direction: row;
@@ -194,6 +197,7 @@
     opacity: 0.5;
 }
 
+/* Old folder icon styles are unused */
 .mystuff > a {
   background-repeat: no-repeat;
   background-position: center center;
@@ -205,6 +209,7 @@
   text-indent: 50px;
   white-space: nowrap;
 }
+
 .mystuff > a:hover {
   background-size: 50%;
 }
@@ -227,8 +232,11 @@
     margin: 0 0.25rem 0 0.5rem;
 }
 
+/* Tutorials label already hidden on small screens; tutorials item is removed from JSX */
 @media only screen and (max-width: 1024px) {
-    .tutorials-label, .collapsible-label, .debug-label{
+    .tutorials-label,
+    .collapsible-label,
+    .debug-label {
         display: none;
     }
 
