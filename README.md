@@ -188,6 +188,10 @@ The compiler is the brain of the platform. It performs the following steps:
 - **Shareable link**: Creates a permanent link (with access controls) for collaboration.
 
 ---
+## AAA Comic
+<img width="1919" height="1070" alt="image" src="https://github.com/user-attachments/assets/197bf068-8ba1-4ff1-84aa-2caf04ba61e3" />
+
+---
 
 ## 🧑‍💻 Usage Guide
 
@@ -296,8 +300,8 @@ docker-compose up -d
 | **Security**  | OAuth2, JWT, RBAC, encryption (AES‑256), audit logging                      |
 | **Languages** | English, Hindi (extensible to 12 regional languages)                         |
 
----
 
+---
 ## 🤝 Contributing
 
 We welcome contributions from the open‑source community.
