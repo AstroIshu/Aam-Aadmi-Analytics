@@ -5,7 +5,7 @@
 *Democratising Aadhaar data insights with drag‑and‑drop simplicity.*
 
 [![Made in India](https://img.shields.io/badge/Made%20in-India-FF9933?style=flat-square&logo=india)](https://en.wikipedia.org/wiki/India)
-[![Hackathon](https://img.shields.io/badge/UIDAI-Hackathon%202024-blue?style=flat-square)](https://uidai.gov.in)
+[![Hackathon](https://img.shields.io/badge/UIDAI-Hackathon%202026-blue?style=flat-square)](https://uidai.gov.in)
 [![Open Source](https://img.shields.io/badge/Open%20Source-❤-green?style=flat-square)](https://github.com/)
 <img width="1354" height="750" alt="image" src="https://github.com/user-attachments/assets/850efffc-5f2f-4210-a716-3aa789e9da03" />
 
